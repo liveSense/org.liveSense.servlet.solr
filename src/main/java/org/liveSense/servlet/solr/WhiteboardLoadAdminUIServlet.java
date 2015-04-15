@@ -31,7 +31,7 @@ import java.nio.charset.StandardCharsets;
 		@Property(name = "defaultIndex", value = "/admin.html")
 
 })
-public class WhiteboardLoadAdminUIServlet extends HttpServlet {
+public class WhiteboardLoadAdminUIServlet extends HttpServlet implements Servlet {
 
 	private static final long serialVersionUID = 3527994797153914038L;
 	Logger log = LoggerFactory.getLogger(WhiteboardLoadAdminUIServlet.class);
